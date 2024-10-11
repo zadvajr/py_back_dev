@@ -1,0 +1,5 @@
+total 12
+drwxrwxr-x 2 zadvajr zadvajr 4096 Oct 11 00:59 .
+drwxrwxr-x 3 zadvajr zadvajr 4096 Oct 11 00:56 ..
+-rw-rw-r-- 1 zadvajr zadvajr    0 Oct 11 01:00 file_names_ls.txt
+-rw-rw-r-- 1 zadvajr zadvajr   60 Oct 11 00:59 text.txt
