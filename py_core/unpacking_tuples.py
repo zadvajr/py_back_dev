@@ -12,5 +12,6 @@ fruits = ("Aplle", "Banana", "Cherry")
 print(green) #Outputs - Apple
 print(yellow) #Outputs - Banana
 print(red) #Outputs - Cherry
-
+#NB: The number of variables must match the number of elements in the tuple
+# Otherwise you have to use * to collect the remaining items as list
 #end
