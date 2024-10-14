@@ -16,4 +16,6 @@ for fruit in fruits_set:
 
 
 # or check if "Lemon" is in the set
-print("Banana" in fruits_set)
+print("Banana" in fruits_set) #will return True if it exist
+
+#end
