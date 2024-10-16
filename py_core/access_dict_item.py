@@ -6,4 +6,10 @@ thisdict = {
   "year": 1964
 }
 x = thisdict["model"]
+y = thisdict.get("year")
 print(x)
+print(y)
+
+# get keys 
+z = thisdict.keys()
+print(z)
