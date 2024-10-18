@@ -1,0 +1,14 @@
+Environment variables also called env var is a variable that lives outside your python code, in the os, and could be read by your python code or other programs
+it is useful for handling application setting.
+
+Create and use env variables
+You can create and read env vars inside shell terminal directly
+
+💬 You could create an env var MY_NAME with
+export MY_NAME="Wade Wilson"
+
+💬 Then you could use it with other programs, like
+echo "Hello $MY_NAME"
+
+Hello Wade Wilson
+ss
