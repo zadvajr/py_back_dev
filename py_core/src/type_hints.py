@@ -11,7 +11,7 @@
 
 # print(total_price("30", "40")) #the output will be 3040 against the correct 70
 
-#To identify such bugs in the development we use static type checkers such as mypi,pylance,pyre, etc.
+#To identify such bugs in the development we use static type checkers such as mypym,pylance,pyre, etc.
 
 #Benefits of type hints
 #with type hints it improves code suggestion and completion in ide
@@ -22,3 +22,5 @@ price = total_price(30, 40)
 prc = total_price("30", "40")
 print(price.upper())
 print(prc)
+
+#end
