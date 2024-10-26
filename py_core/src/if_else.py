@@ -13,10 +13,18 @@
 
 #Example
 #if statement
-a = 33 
-b = 200
-if b > a:
-    print("b is greater than a")
+# a = 33 
+# b = 200
+# if b > a:
+#     print("b is greater than a")
 
 # Elif
 # The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
+a = 200
+b = 200
+if b > a:
+    print("b is greater than a")
+elif a == b:
+    print("a and b are equal")
+else:
+    print("a is greater than b")
