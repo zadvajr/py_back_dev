@@ -18,3 +18,5 @@ b = 200
 if b > a:
     print("b is greater than a")
 
+# Elif
+# The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
