@@ -1,5 +1,7 @@
-"""Decorator functions"""
-def smart_divide(func):
+"""modules"""
+from typing import Callable
+
+def smart_divide(func: Callable[[int, int], float]):
     """decorator function"""
     def inner(a, b):
         if b == 0:
