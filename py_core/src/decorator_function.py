@@ -17,4 +17,3 @@ def divide(a, b):
 
 divide(9, 0)
 divide(9, 3)
-
