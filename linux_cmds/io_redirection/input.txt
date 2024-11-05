@@ -1,0 +1,1 @@
+This is an input text file, used to demonstrate the concepts of input redirection. The file will be used as an example and user will issue a command to search for the text "example" in the file using grep. seat and enjoy
