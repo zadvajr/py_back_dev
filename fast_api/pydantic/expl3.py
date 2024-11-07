@@ -13,7 +13,8 @@ class Blog(BaseModel):
     is_active: bool
 
 
-blog = Blog(title="My first blog", language= "C++", is_active=True)
+blog = Blog(title="My first blog", language= "Go", is_active=True)
 print(blog)
+print(blog.language.value)
 
 #Output: title='My first blog' Language=<Languages.PY: 'Python'> is_active=True
