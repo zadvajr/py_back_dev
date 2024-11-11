@@ -5,7 +5,9 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/", description="This is the home route")
+
+
+@app.get("/", description="This is the home route", tags=["Home Route"], summary="Home Route", response_description="Success! Home Route")
 def home():
     return "Welcome to my First FastAPI App"
 
