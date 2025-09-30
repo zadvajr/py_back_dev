@@ -5,7 +5,11 @@
 user_name = "zadvajr"
 password = "1059.dAz"
 
+<<<<<<< HEAD
 trials = 5
+=======
+trials = 3
+>>>>>>> f4a25dca34b2019639c08ef1f61b8e96cce26879
 count = 0
 while count < trials:
     username = input("Enter your username: ")

@@ -11,4 +11,3 @@ export MY_NAME="Wade Wilson"
 echo "Hello $MY_NAME"
 
 Hello Wade Wilson
-ss
